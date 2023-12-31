@@ -1,0 +1,11 @@
+函数整理
+
+02_LED
+setup()  //当Arudino首次上电时，函数执行一次
+loop()  //循环执行
+pinMode()  //配置数字引脚为输入或输出  {pinMode(4, OUTPUT)  //将第四引脚设置为输出}
+digitalRead()  //查看（）中引脚的参数  {digitalRead(2) 查看第二引脚的参数}
+digitalWrite()  //控制引脚，设置高低值  {digitalWrite(3. LOW) 控制第三引脚，在第三引脚设置为低}
+delay()  //设置延时  {delay(250) 将延时设置为四分之一秒}
+
+03_temperature_sensor
